@@ -1,0 +1,38 @@
+# Rust
+target/
+
+# Cargo.lock is recommended to be committed for applications
+# Uncomment the next line if you want to ignore Cargo.lock
+# Cargo.lock
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Build artifacts
+build/
+dist/
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.sqlite

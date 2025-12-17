@@ -1,0 +1,39 @@
+[package]
+name = "clipstack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk4 = "0.9"
+glib = "0.20"
+gio = "0.20"
+glib-macros = "0.20"
+gdk-pixbuf = "0.20"
+cairo-rs = "0.20"
+pango = "0.20"
+gdk4 = "0.9"
+gtk4-macros = "0.9"
+
+# Storage
+rusqlite = { version = "0.31", features = ["bundled"] }
+
+# UUID generation
+uuid = { version = "1.8", features = ["v4"] }
+
+# Time handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# Configuration
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "5.0"
+
+# Logging
+log = "0.4"
+env_logger = "0.11"
+
+# Async runtime
+tokio = { version = "1.0", features = ["full"] }
+
+# Random number generation (for testing)
+rand = "0.8"
