@@ -37,3 +37,6 @@ tokio = { version = "1.0", features = ["full"] }
 
 # Random number generation (for testing)
 rand = "0.8"
+
+# Clipboard monitoring
+clipboard = "0.5"
